@@ -5,17 +5,81 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_r3a3"
+  "basic_details_section",
+  "title",
+  "column_break_guip",
+  "description",
+  "optional_info_section",
+  "date",
+  "num_of_students",
+  "popular_major",
+  "column_break_xrov",
+  "rank",
+  "rank_globally"
  ],
  "fields": [
   {
-   "fieldname": "section_break_r3a3",
-   "fieldtype": "Section Break"
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "University Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_guip",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "University Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "optional_info_section",
+   "fieldtype": "Section Break",
+   "label": "Optional Info"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Establishment Date"
+  },
+  {
+   "fieldname": "num_of_students",
+   "fieldtype": "Int",
+   "label": "Number of Students"
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Int",
+   "label": "Rank in Malaysia "
+  },
+  {
+   "fieldname": "rank_globally",
+   "fieldtype": "Int",
+   "label": "Global Rank"
+  },
+  {
+   "fieldname": "popular_major",
+   "fieldtype": "Link",
+   "label": "Most Popular Major",
+   "options": "Majors"
+  },
+  {
+   "fieldname": "column_break_xrov",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-03 23:21:30.556405",
+ "modified": "2024-04-21 05:56:58.518042",
  "modified_by": "Administrator",
  "module": "Pioneers App",
  "name": "Universities",
