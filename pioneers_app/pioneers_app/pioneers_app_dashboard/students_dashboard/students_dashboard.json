@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Student Count",
+   "width": "Full"
+  }
+ ],
+ "creation": "2024-04-21 09:55:18.871222",
+ "dashboard_name": "Students Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-04-21 09:55:18.871222",
+ "modified_by": "Administrator",
+ "module": "Pioneers App",
+ "name": "Students Dashboard",
+ "owner": "Administrator"
+}
