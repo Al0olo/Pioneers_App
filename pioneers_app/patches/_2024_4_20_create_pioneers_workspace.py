@@ -17,8 +17,14 @@ def _add_lava_cms_basic_workspace():
         shortcuts = [
             {
                 "doc_view": "List",
-                "label": "Users",
-                "link_to": "User",
+                "label": "Students",
+                "link_to": "Students",
+                "doctype": "DocType"
+            },
+            {
+                "doc_view": "List",
+                "label": "Parents",
+                "link_to": "Parents",
                 "doctype": "DocType"
             },
             {
@@ -31,6 +37,12 @@ def _add_lava_cms_basic_workspace():
                 "doc_view": "List",
                 "label": "Majors",
                 "link_to": "Majors",
+                "doctype": "DocType"
+            },
+            {
+                "doc_view": "List",
+                "label": "Accommodation",
+                "link_to": "Accommodation",
                 "doctype": "DocType"
             },
         ]
