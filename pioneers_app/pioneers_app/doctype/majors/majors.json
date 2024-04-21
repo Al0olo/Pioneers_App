@@ -5,17 +5,63 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_ilsz"
+  "basic_info_section",
+  "title",
+  "study_years",
+  "fees",
+  "column_break_vxib",
+  "university",
+  "major_description"
  ],
  "fields": [
   {
-   "fieldname": "section_break_ilsz",
-   "fieldtype": "Section Break"
+   "fieldname": "basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Info"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Major Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "study_years",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Study Years",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fees",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Fees",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vxib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "University Name",
+   "options": "Universities",
+   "reqd": 1
+  },
+  {
+   "fieldname": "major_description",
+   "fieldtype": "Long Text",
+   "label": "Major Description",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-03 23:23:00.182897",
+ "modified": "2024-04-21 09:06:19.868145",
  "modified_by": "Administrator",
  "module": "Pioneers App",
  "name": "Majors",

@@ -5,17 +5,56 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_lhfj"
+  "title",
+  "type",
+  "address",
+  "column_break_qvfh",
+  "description",
+  "university"
  ],
  "fields": [
   {
-   "fieldname": "section_break_lhfj",
-   "fieldtype": "Section Break"
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Belongs to University\nDoesn't Belong to University",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qvfh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "Universities"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-03 23:22:28.575405",
+ "modified": "2024-04-21 09:18:41.891232",
  "modified_by": "Administrator",
  "module": "Pioneers App",
  "name": "Accommodation",
