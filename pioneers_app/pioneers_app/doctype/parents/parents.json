@@ -5,17 +5,45 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_jvry"
+  "user",
+  "full_name",
+  "email",
+  "phone_number"
  ],
  "fields": [
   {
-   "fieldname": "section_break_jvry",
-   "fieldtype": "Section Break"
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-21 09:19:25.414478",
+ "modified": "2024-04-21 09:29:05.808929",
  "modified_by": "Administrator",
  "module": "Pioneers App",
  "name": "Parents",

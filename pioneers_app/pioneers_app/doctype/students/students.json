@@ -16,6 +16,7 @@
   "is_active",
   "university",
   "major",
+  "father",
   "optional_info_section",
   "passport",
   "column_break_ypxd",
@@ -109,11 +110,17 @@
    "fieldname": "flight_ticket",
    "fieldtype": "Attach Image",
    "label": "Flight Ticket"
+  },
+  {
+   "fieldname": "father",
+   "fieldtype": "Link",
+   "label": "Parent",
+   "options": "Parents"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-21 09:13:13.474058",
+ "modified": "2024-04-21 09:30:16.889450",
  "modified_by": "Administrator",
  "module": "Pioneers App",
  "name": "Students",
